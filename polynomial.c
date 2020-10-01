@@ -18,7 +18,7 @@ int main()
         else if(j>i)
         {
             printf("%d ",b[j]);
-            j--;
+            j=j-1;
         }
         else {
         printf("%d ",a[i]+b[j]);
